@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WSOOBE", "WSOOBE\WSOOBE.csproj", "{6924AEC9-F211-4DB2-9EBE-4232C7ABEDBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNETCore22", "ASPNETCore22\ASPNETCore22.csproj", "{926F83CF-3002-466B-A7B2-AD41CF045EBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNETCore30", "ASPNETCore30\ASPNETCore30.csproj", "{57507857-B300-4AA9-9C75-E0809AC69C3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScopedWorker", "ScopedWorker\ScopedWorker.csproj", "{BB75D186-CBAD-426A-B859-24958AFA9FAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrameworkCodeFiles", "FrameworkCodeFiles", "{6C830C59-DAE1-4ED4-A9B5-6503C5681456}"
+	ProjectSection(SolutionItems) = preProject
+		1_HostingAbstractionsHostExtensions.cs = 1_HostingAbstractionsHostExtensions.cs
+		2_Host.cs = 2_Host.cs
+		3_ConsoleLifetime.cs = 3_ConsoleLifetime.cs
+		4_WindowsServiceLifetime.cs = 4_WindowsServiceLifetime.cs
+		5_WindowsServiceLifetimeHostBuilderExtensions.cs = 5_WindowsServiceLifetimeHostBuilderExtensions.cs
+		6_GenericHostBuilderExtensions.cs = 6_GenericHostBuilderExtensions.cs
+		7_GenericHostWebHostBuilderExtensions.cs = 7_GenericHostWebHostBuilderExtensions.cs
+		8_GenericWebHostedService.cs = 8_GenericWebHostedService.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6924AEC9-F211-4DB2-9EBE-4232C7ABEDBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6924AEC9-F211-4DB2-9EBE-4232C7ABEDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6924AEC9-F211-4DB2-9EBE-4232C7ABEDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6924AEC9-F211-4DB2-9EBE-4232C7ABEDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926F83CF-3002-466B-A7B2-AD41CF045EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926F83CF-3002-466B-A7B2-AD41CF045EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926F83CF-3002-466B-A7B2-AD41CF045EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926F83CF-3002-466B-A7B2-AD41CF045EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57507857-B300-4AA9-9C75-E0809AC69C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57507857-B300-4AA9-9C75-E0809AC69C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57507857-B300-4AA9-9C75-E0809AC69C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57507857-B300-4AA9-9C75-E0809AC69C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB75D186-CBAD-426A-B859-24958AFA9FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB75D186-CBAD-426A-B859-24958AFA9FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB75D186-CBAD-426A-B859-24958AFA9FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB75D186-CBAD-426A-B859-24958AFA9FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C06F2F4B-C18B-43C5-849E-8419FAD287A6}
+	EndGlobalSection
+EndGlobal
